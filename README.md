@@ -22,6 +22,19 @@ Code Begins:
 The Anomaly Detection WebApp programmed with the MVC design using node.js in javaScript for the Server, and the client web-page with html&css.
 You can see the division between the view of a feature and its corresponding Controller that is connected to the model of the whole program.
 
+MVC details:
+View:
+This is a HTML web page with a form in it
+Two input fields - (file type) for selecting files, a button for selecting the algorithm type and a frame for displaying the output.
+
+Controller:
+For the get http command to “/” the controller will return the HTML form to the client.
+The command post: api / detect is sent when the customer clicks submit. It contains the 2 csv files and the algorithm type, the command will return in form the view of the exception table.
+The command post: api / server accepts the 2 csv files and the algorithm type, and returns json of the anomalies
+
+model:
+In the model we implement the algorithm for learning the correct flight and detecting the anomalies.
+
 Project structure:
 
 In the main window you can see all the code's files for the app.
@@ -32,7 +45,7 @@ How to run the app?:
 * Open the CMD shell from the project's folder.
 * Get into the Controller folder.
 * Run the the following commands:
-- npm init —yes
+- npm init --yes
 - npm i express
 - npm i express-fileupload
 * Return to the project's main folder.
