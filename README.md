@@ -67,5 +67,5 @@ We have a html file that is the View of the html page.
 We have a js file that is the Controller of the html that implement the HTTP commands (post,get) , and it connect between the view and the model.
 We have a js file that is the Model of the html that implement the anomaly detection of each algorithem.
 
-(?????[Demo of the app running](https://youtu.be/AGYCmEJU_LM)???)
+[Demo of the app running](https://youtu.be/wTXn-ooOaXc)
 Enjoy!
