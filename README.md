@@ -23,6 +23,7 @@ The Anomaly Detection WebApp programmed with the MVC design using node.js in jav
 You can see the division between the view of a feature and its corresponding Controller that is connected to the model of the whole program.
 
 MVC details:
+
 View:
 This is a HTML web page with a form in it
 Two input fields - (file type) for selecting files, a button for selecting the algorithm type and a frame for displaying the output.
