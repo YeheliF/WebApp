@@ -1,5 +1,6 @@
 # Anomaly Detection WebApp
 
+A Web app server that implements a REST-API for the clients,and a single web-page.
 This is a Web application that detects anomaly's in data from one CSV file according to another.
 The app allows the user to select Algorithm for detecting anomalies, upload two CSV files - CSV file of a correct data in order to check for anomaly's, and CSV file of the data you want to inspect for anomaly's.
 
@@ -8,6 +9,7 @@ Collaborators:
 The program was developed by four second year computer science students at Bar Ilan University, Israel - Ashira Major, Yeheli Frangi, Liad Malihi and Shiraz Ayash.
 
 General Description:
+
 The client open a browser at address 'localhost:8080'. 
 A page appears with the title 'Anomaly Detection Server'.
 The client selects an anomaly detection algorithm from a drop-down list that includes an algorithm based Regression and hybrid algorithm.
@@ -17,16 +19,14 @@ The output is a report with the anomalies that the algorithm detected that speci
 
 Code Begins:
 
-The Anomaly Detection WebApp programmed with the MVC design using node.js in javaScript and html languages.
-You can see the division between the view of a feature and its corresponding viewModel that is connected to the model of the whole program.
+The Anomaly Detection WebApp programmed with the MVC design using node.js in javaScript for the Server, and the client web-page with html&css.
+You can see the division between the view of a feature and its corresponding Controller that is connected to the model of the whole program.
 
 Project structure:
 
-(????In the main window you can see all the code's files for the app.
-
+In the main window you can see all the code's files for the app.
 Also you can see the UML of the whole project.
 
-In the Images folder you have all the feature's to run the app.?????)
 
 How to run the app?:
 * Open the CMD shell from the project's folder.
